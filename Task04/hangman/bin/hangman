@@ -9,7 +9,7 @@
         require_once($autoloadPathForPackagist);
     }
 
-    use function freedrobili\hangman\Controller\mainMenu;
+    use function Oldsool\hangman\Controller\mainMenu;
 
     mainMenu();
 ?>
